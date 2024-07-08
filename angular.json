@@ -22,7 +22,11 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/styles.css",
+              "src/assets/plugins/fontawesome-free/css/all.min.css",
+              "src/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "src/assets/dist/css/adminlte.min.css"
             ],
             "styles": [
               "src/styles.css"
@@ -84,7 +88,11 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/styles.css",
+              "src/assets/plugins/fontawesome-free/css/all.min.css",
+              "src/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "src/assets/dist/css/adminlte.min.css"
             ],
             "styles": [
               "src/styles.css"
@@ -94,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "091c64e7-4ff5-4711-8941-5d66aa6a7380"
   }
 }
